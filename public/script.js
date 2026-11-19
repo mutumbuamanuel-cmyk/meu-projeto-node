@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarTarefas();
 });
 
-// Função global para excluir tarefa por ID
+// Função global para excluir tarefa por id
 async function excluirTarefa(id) {
     if (!confirm('Tens a certeza que pretendes excluir esta tarefa?')) return;
 
